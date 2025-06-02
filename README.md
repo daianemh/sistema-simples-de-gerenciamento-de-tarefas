@@ -18,24 +18,3 @@ Antes de iniciar, certifique-se de ter:
 ✅ IntelliJ IDEA configurado
 ✅ Maven instalado
 
-Compilar e Rodar
-Use os comandos:
-mvn clean install
-mvn spring-boot:run
-
-
- Acessar os endpoints
-Após rodar o servidor, os seguintes endpoints estarão disponíveis:
-- Listar tarefas: GET http://localhost:8080/tarefas
-- Criar tarefa: POST http://localhost:8080/tarefas
-- Atualizar tarefa: PUT http://localhost:8080/tarefas/{id}
-- Deletar tarefa: DELETE http://localhost:8080/tarefas/{id}
-
- Banco de dados
-Você pode visualizar e gerenciar os dados pelo H2 Console, acessando:
-➡️ http://localhost:8080/h2-console
-
-🧪 Testes
-Para rodar testes unitários, execute:
-mvn test
-
